@@ -1,5 +1,5 @@
 var types = require('./types'),
-    dbf = require('dbf'),
+    dbf = require('smg-dbf'),
     prj = require('./prj'),
     ext = require('./extent'),
     getFields = require('./fields'),
