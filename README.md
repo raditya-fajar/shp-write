@@ -233,6 +233,11 @@ object.
 
 * http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf
 
+## Notes
+
+* This project addresses the bug that occurred when exporting a featureCollection with more than one polygon. He turned polygons into multipoligons.
+Because the project is not maintained by its creator I built a npm library based on the [@jmmluna](https://github.com/mapbox/shp-write/pull/75#issue-293630093)  project
+
 ## Contributors
 
 * Nick Baugh <niftylettuce@gmail.com>
