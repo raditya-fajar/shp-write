@@ -1,6 +1,6 @@
 {
   "name": "@raditya-fajar/shp-write",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "write shapefiles from pure javascript, this repository corrects the error that unified all polygons as multipolygons",
 "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "main": "index.js",
