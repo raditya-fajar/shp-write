@@ -1,0 +1,55 @@
+{
+  "name": "@raditya-fajar/shp-write",
+  "version": "1.0.1",
+  "description": "write shapefiles from pure javascript, this repository corrects the error that unified all polygons as multipolygons",
+"publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raditya-fajar/shp-write.git"
+  },
+  "files": [
+    "index.js",
+    "src",
+    "shpwrite.js"
+  ],
+  "keywords": [
+    "shapefile",
+    "write",
+    "js",
+    "export"
+  ],
+  "author": "Tom MacWright",
+  "contributors": [
+    "Nick Baugh <niftylettuce@gmail.com>",
+    "José María Martínez Luna <jose@geowe.org>",
+    "Alef Fabricio <alef.fcg@gmail.com>"
+  ],
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/raditya-fajar/shp-write/issues"
+  },
+  "dependencies": {
+    "jszip": "2.5.0",
+    "smg-dbf": "0.1.5"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "cz-conventional-changelog": "^1.2.0",
+    "expect.js": "~0.3.1",
+    "mocha": "~2.4.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "homepage": "https://github.com/raditya-fajar/shp-write#readme"
+}
