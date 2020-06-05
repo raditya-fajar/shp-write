@@ -10,7 +10,7 @@ ZIP file downloads in-browser.
 
 For node.js or [browserify](https://github.com/substack/node-browserify)
 
-    npm i @aleffabricio/shp-write
+    npm i @raditya-fajar/shp-write
 
 Or in a browser
 
